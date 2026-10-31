@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "finite_conditions": 1582,
+  "cases": 20,
+  "source_rows": 153,
+  "probes": 60,
+  "examples": 7,
+  "methods": "Independent dateutil plus SQLite day/identity/count controls and exact Fraction accounting/ranking; no production aggregation or exercise import.",
+  "scope": "Every current saved case, source-row classification, probe, queue rank and authored request; not universal correctness or verified staffing effort."
+}

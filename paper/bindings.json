@@ -1,0 +1,1829 @@
+[
+  {
+    "name": "BoundA",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "value",
+    "display": "7"
+  },
+  {
+    "name": "BoundB",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "value",
+    "display": "3"
+  },
+  {
+    "name": "BoundC",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundD",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "money2",
+    "display": "4,604,021.43"
+  },
+  {
+    "name": "BoundE",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "money2",
+    "display": "4,604,021.43"
+  },
+  {
+    "name": "BoundF",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C01"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundG",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "value",
+    "display": "9"
+  },
+  {
+    "name": "BoundH",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundI",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundJ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "money2",
+    "display": "2,049,061.21"
+  },
+  {
+    "name": "BoundK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "money2",
+    "display": "2,994,515.21"
+  },
+  {
+    "name": "BoundL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "percent2",
+    "display": "31.57"
+  },
+  {
+    "name": "BoundM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundO",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundP",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "money2",
+    "display": "3,585.00"
+  },
+  {
+    "name": "BoundQ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "money2",
+    "display": "3,585.00"
+  },
+  {
+    "name": "BoundR",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C03"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundS",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundT",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundU",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundV",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "money2",
+    "display": "487,200.00"
+  },
+  {
+    "name": "BoundW",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "money2",
+    "display": "487,200.00"
+  },
+  {
+    "name": "BoundX",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C04"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundY",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundZ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAA",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAB",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "money2",
+    "display": "380,804.41"
+  },
+  {
+    "name": "BoundAC",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "money2",
+    "display": "380,804.41"
+  },
+  {
+    "name": "BoundAD",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C05"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundAE",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "value",
+    "display": "17"
+  },
+  {
+    "name": "BoundAF",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundAG",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAH",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "money2",
+    "display": "625,841.23"
+  },
+  {
+    "name": "BoundAI",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "money2",
+    "display": "625,841.23"
+  },
+  {
+    "name": "BoundAJ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C06"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundAK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "value",
+    "display": "16"
+  },
+  {
+    "name": "BoundAL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundAM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "money2",
+    "display": "3,515,784.56"
+  },
+  {
+    "name": "BoundAO",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "money2",
+    "display": "3,515,784.56"
+  },
+  {
+    "name": "BoundAP",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C07"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundAQ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "value",
+    "display": "21"
+  },
+  {
+    "name": "BoundAR",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundAS",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundAT",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "money2",
+    "display": "13,148,662.82"
+  },
+  {
+    "name": "BoundAU",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "money2",
+    "display": "13,689,978.30"
+  },
+  {
+    "name": "BoundAV",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "percent2",
+    "display": "3.95"
+  },
+  {
+    "name": "BoundAW",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundAX",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAY",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundAZ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "money2",
+    "display": "13,470.00"
+  },
+  {
+    "name": "BoundBA",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "money2",
+    "display": "13,470.00"
+  },
+  {
+    "name": "BoundBB",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C09"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundBC",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "value",
+    "display": "8"
+  },
+  {
+    "name": "BoundBD",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "value",
+    "display": "3"
+  },
+  {
+    "name": "BoundBE",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBF",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "money2",
+    "display": "1,591,170.87"
+  },
+  {
+    "name": "BoundBG",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "money2",
+    "display": "1,591,170.87"
+  },
+  {
+    "name": "BoundBH",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C10"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundBI",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundBJ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "money2",
+    "display": "613,822.76"
+  },
+  {
+    "name": "BoundBM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "money2",
+    "display": "613,822.76"
+  },
+  {
+    "name": "BoundBN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C11"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundBO",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundBP",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBQ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBR",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundBS",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundBT",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C12"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundBU",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "value",
+    "display": "7"
+  },
+  {
+    "name": "BoundBV",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBW",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundBX",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "money2",
+    "display": "4,536,970.21"
+  },
+  {
+    "name": "BoundBY",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "money2",
+    "display": "4,536,970.21"
+  },
+  {
+    "name": "BoundBZ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C13"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundCA",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundCB",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCC",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCD",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCE",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCF",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C14"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundCG",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundCH",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCI",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCJ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C15"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundCM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundCN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCO",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCP",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCQ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCR",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C16"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundCS",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundCT",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCU",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundCV",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCW",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundCX",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C17"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundCY",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "value",
+    "display": "5"
+  },
+  {
+    "name": "BoundCZ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundDA",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundDB",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "money2",
+    "display": "385,197.00"
+  },
+  {
+    "name": "BoundDC",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "money2",
+    "display": "385,197.00"
+  },
+  {
+    "name": "BoundDD",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C18"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundDE",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundDF",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundDG",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundDH",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundDI",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundDJ",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C19"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundDK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "window_actions"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundDL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "zero_actions"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundDM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundDN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_usd"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundDO",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "gross_absolute_usd"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "money2",
+    "display": "25,000.00"
+  },
+  {
+    "name": "BoundDP",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C20"
+    },
+    "operation": "percent2",
+    "display": "0.00"
+  },
+  {
+    "name": "BoundDQ",
+    "file": "results/summary.json",
+    "field": [
+      "cases"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "20"
+  },
+  {
+    "name": "BoundDR",
+    "file": "results/summary.json",
+    "field": [
+      "queues",
+      "overlap_count"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "3"
+  },
+  {
+    "name": "BoundDS",
+    "file": "results/summary.json",
+    "field": [
+      "queues",
+      "union_count"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "7"
+  },
+  {
+    "name": "BoundDT",
+    "file": "results/summary.json",
+    "field": [
+      "queues",
+      "jaccard_fraction"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "3/7"
+  },
+  {
+    "name": "BoundDU",
+    "file": "results/summary.json",
+    "field": [
+      "window_actions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "104"
+  },
+  {
+    "name": "BoundDV",
+    "file": "results/summary.json",
+    "field": [
+      "zero_amount_actions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "12"
+  },
+  {
+    "name": "BoundDW",
+    "file": "results/summary.json",
+    "field": [
+      "negative_amount_actions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "3"
+  },
+  {
+    "name": "BoundDX",
+    "file": "results/summary.json",
+    "field": [
+      "queues",
+      "action_count_queue"
+    ],
+    "query": null,
+    "operation": "join",
+    "display": "C08, C06, C07, C02, C10"
+  },
+  {
+    "name": "BoundDY",
+    "file": "results/summary.json",
+    "field": [
+      "queues",
+      "net_obligation_queue"
+    ],
+    "query": null,
+    "operation": "join",
+    "display": "C08, C01, C13, C07, C02"
+  },
+  {
+    "name": "BoundDZ",
+    "file": "results/summary.json",
+    "field": [
+      "cases"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "20"
+  },
+  {
+    "name": "BoundEA",
+    "file": "results/summary.json",
+    "field": [
+      "native_records"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "153"
+  },
+  {
+    "name": "BoundEB",
+    "file": "data/capture_manifest.json",
+    "field": [
+      "requests"
+    ],
+    "query": null,
+    "operation": "length",
+    "display": "62"
+  },
+  {
+    "name": "BoundEC",
+    "file": "results/summary.json",
+    "field": [
+      "financially_complete_cases"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "20"
+  },
+  {
+    "name": "BoundED",
+    "file": "results/summary.json",
+    "field": [
+      "native_records"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "153"
+  },
+  {
+    "name": "BoundEE",
+    "file": "results/summary.json",
+    "field": [
+      "window_actions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "104"
+  },
+  {
+    "name": "BoundEF",
+    "file": "results/case_accounts.csv",
+    "field": "at_or_after_horizon_records",
+    "query": null,
+    "operation": "sum",
+    "display": "49"
+  },
+  {
+    "name": "BoundEG",
+    "file": "results/case_accounts.csv",
+    "field": "missing_key_records",
+    "query": null,
+    "operation": "sum",
+    "display": "0"
+  },
+  {
+    "name": "BoundEH",
+    "file": "results/case_accounts.csv",
+    "field": "duplicate_key_records",
+    "query": null,
+    "operation": "sum",
+    "display": "0"
+  },
+  {
+    "name": "BoundEI",
+    "file": "results/case_accounts.csv",
+    "field": "unknown_date_records",
+    "query": null,
+    "operation": "sum",
+    "display": "0"
+  },
+  {
+    "name": "BoundEJ",
+    "file": "results/summary.json",
+    "field": [
+      "unknown_amount_actions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "0"
+  },
+  {
+    "name": "BoundEK",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "value",
+    "display": "1"
+  },
+  {
+    "name": "BoundEL",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C02"
+    },
+    "operation": "percent2",
+    "display": "31.57"
+  },
+  {
+    "name": "BoundEM",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "negative_actions"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "value",
+    "display": "2"
+  },
+  {
+    "name": "BoundEN",
+    "file": "results/case_accounts.csv",
+    "field": [
+      "net_offset_fraction"
+    ],
+    "query": {
+      "case": "C08"
+    },
+    "operation": "percent2",
+    "display": "3.95"
+  },
+  {
+    "name": "BoundEO",
+    "file": "results/cumulative_probes.csv",
+    "field": null,
+    "query": null,
+    "operation": "length",
+    "display": "60"
+  },
+  {
+    "name": "BoundEP",
+    "file": "results/verification.json",
+    "field": [
+      "native_source_conditions"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "1,768"
+  },
+  {
+    "name": "BoundEQ",
+    "file": "results/verification.json",
+    "field": [
+      "saved_source_conditions"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "1,236"
+  },
+  {
+    "name": "BoundER",
+    "file": "results/verification.json",
+    "field": [
+      "independent_accounting_conditions"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "1,582"
+  },
+  {
+    "name": "BoundES",
+    "file": "PLAN_FREEZE.json",
+    "field": [
+      "hashes"
+    ],
+    "query": null,
+    "operation": "length",
+    "display": "24"
+  },
+  {
+    "name": "BoundET",
+    "file": "results/verification.json",
+    "field": [
+      "authored_fixture_methods"
+    ],
+    "query": null,
+    "operation": "commas",
+    "display": "33"
+  },
+  {
+    "name": "BoundEU",
+    "file": "results/reproduction_cpython310.json",
+    "field": [
+      "python"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "3.10.11"
+  },
+  {
+    "name": "BoundEV",
+    "file": "results/reproduction_cpython312.json",
+    "field": [
+      "python"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "3.12.14"
+  },
+  {
+    "name": "BoundEW",
+    "file": "results/reproduction_cpython310.json",
+    "field": [
+      "reproduced_files"
+    ],
+    "query": null,
+    "operation": "length",
+    "display": "6"
+  },
+  {
+    "name": "BoundEX",
+    "file": "results/reproduction_cpython310.json",
+    "field": [
+      "unchanged_source_files"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "9"
+  },
+  {
+    "name": "BoundEY",
+    "file": "figures/verification.json",
+    "field": [
+      "source_bound_artists"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "120"
+  },
+  {
+    "name": "BoundEZ",
+    "file": "figures/verification.json",
+    "field": [
+      "svg_coordinate_conditions"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "480"
+  },
+  {
+    "name": "BoundFA",
+    "file": "results/exercise.json",
+    "field": [
+      0,
+      "result",
+      "value"
+    ],
+    "query": null,
+    "operation": "value",
+    "display": "7"
+  },
+  {
+    "name": "BoundFB",
+    "file": "results/exercise.json",
+    "field": [
+      1,
+      "result",
+      "value"
+    ],
+    "query": null,
+    "operation": "money2",
+    "display": "3,585.00"
+  }
+]

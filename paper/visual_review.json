@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-31T02:37:05.119264+00:00",
+  "manuscript_sha256": "4998a6063a56386d3c15bc21b6ae9ae8116e726672bb9a3d820bcff73650989a",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "method": "Poppler100dpi renders;all six current pages inspected. Three complete case figures inspected;fixed-horizon grouped bars changed to separate facets for readable labels before manuscript assembly. Source accounting unchanged.",
+  "checks": "Readable text,complete table,all case labels,three current full landscape figures,units,zero baselines,measurement limitations and source attribution;no clipping or layout/font diagnostics. Not accessibility certification.",
+  "render_sha256": {
+    "1": "e0aa6da1c6a25995607c5328f9c5a1caad159e32a0af2aadd2a5475290a927a4",
+    "2": "7a9f0e01866573584aa58d0ee393636fc9a8a499f8e20dbf518056891b3d8889",
+    "3": "99609e5f330500e33237f681c079d95978b5531250880d3947a53c8584aaee14",
+    "4": "0b6dc7c69e01708bca0b25b247467439dca9c5870e475bce0dedb14a092be02b",
+    "5": "45996f395063705404c1ba40dce6ee205537a58188300d312764dacff5146ce4",
+    "6": "715d3e7899676abf953141a14b2f8f5e44fadb09c89a2167a70942e1d401d4dc"
+  },
+  "reviewed_figure_png_sha256": {
+    "figures/counts_and_obligations.png": "027daa932cbf752b09c62634256ed869cca4a7cce27bb4450e4584085b4e6903",
+    "figures/fixed_window_counts.png": "d4fd7b9de5237de8df124b16d0437ac458be968a2de86a57b2b2b23b3c755e6e",
+    "figures/signed_offsets.png": "fedaff2185d7ffd88c97f40d5c8f7435ca9a798e54300c14b2a6e57482ffde82"
+  }
+}

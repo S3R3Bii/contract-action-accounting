@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "finite_conditions": 1768,
+  "cases": 20,
+  "native_records": 153,
+  "hashes": {
+    "data/cases.json": "49542376a7f4591eac6a845b681ec131776d29d1ed6b92f9df6e52a73993da74",
+    "data/transactions.csv": "8831104587a57affce8a0ee8bf48a520bb7b0aef442233802aff76fed4753092",
+    "data/capture_manifest.json": "3ebf46e583854920389c904416eb77efe5a8c4c18143f3f5bbeb191977bcfbc5",
+    "data/source_contract.json": "50b759bed58d9471550684f1237c7e31a9eb4f3fe24344ab0a3688348b60f630"
+  },
+  "methods": "Separate native JSON Decimal parser, SQLite key multiplicity, datetime/dateutil calendar validation and exact Fraction values; no production projection import.",
+  "scope": "Captured native records and specific current consistency controls only; not original-vintage completeness, actual legal modifications or staff effort."
+}

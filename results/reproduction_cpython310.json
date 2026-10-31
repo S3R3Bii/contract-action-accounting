@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "python": "3.10.11",
+  "reproduced_files": [
+    "case_accounts.csv",
+    "row_classification.csv",
+    "cumulative_probes.csv",
+    "queue_ranks.csv",
+    "summary.json",
+    "exercise.json"
+  ],
+  "unchanged_source_files": 9,
+  "native_redownload": false,
+  "scope": "Frozen minimal current source replay, not independent reacquisition or original-vintage evidence.",
+  "checkout_head": "65f300eb887e78969241e5cc34b11ef118a56169",
+  "full_history": true
+}

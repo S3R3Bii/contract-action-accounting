@@ -1,0 +1,11 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "public_files": {
+    "paper/main.tex": "0bb6b1f6bc598aad08cd9be6ad5e8b39b37bbdd6716dc6d55c3bd2485ea83d83",
+    "paper/manuscript.pdf": "4998a6063a56386d3c15bc21b6ae9ae8116e726672bb9a3d820bcff73650989a",
+    "paper/images/counts_and_obligations.pdf": "637da63ddca2428f95083ec74c85b58642a16256c3ca7e6129062c11858715bc",
+    "paper/images/fixed_window_counts.pdf": "1c3dc29526e25410b16a16f93edf41356a86e75571b73c70e1ff10fc26e70859",
+    "paper/images/signed_offsets.pdf": "b340c39a6ec411e46880999a54ba83c29f309fb32b08c3914590011327abc91e"
+  }
+}

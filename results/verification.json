@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FINITE_LOCAL_CHECKS",
+  "native_source_conditions": 1768,
+  "saved_source_conditions": 1236,
+  "independent_accounting_conditions": 1582,
+  "authored_fixture_methods": 33,
+  "source_cases": 20,
+  "source_records": 153,
+  "result_sha256": {
+    "case_accounts.csv": "918d8afff030eff07449c3a46424da2aa3d588835c06fbdd1c4f163fa083c578",
+    "row_classification.csv": "69c3fadc57c8a59ec4476cc2ea985bc7a2eb4a13e4509eaee330058d4fb43a71",
+    "cumulative_probes.csv": "c73b553e3598ed2297593a633e3a5b8906744ac24771f23521afcbc4ca44177d",
+    "queue_ranks.csv": "48380436522379d2948a9126b8184cb7bcd3e89c1122249cfd222651db5ae05d",
+    "summary.json": "ce1acfcec610aa2c944161c1dec5e774742fc5281e88942be2dc7906504d662c",
+    "exercise.json": "1bbf38ef64f09bc4c5f2d3548c938e0353156c3742a1e8b816652988c5ec2f2f"
+  },
+  "scope": "Finite current-source checks;remote release closure recorded separately."
+}

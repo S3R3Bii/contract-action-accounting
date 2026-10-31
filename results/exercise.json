@@ -1,0 +1,85 @@
+[
+  {
+    "request": {
+      "case": "C01",
+      "measure": "CURRENT_ACTION_ACCOUNT"
+    },
+    "result": {
+      "accepted": true,
+      "case": "C01",
+      "measure": "CURRENT_ACTION_ACCOUNT",
+      "value": "7",
+      "unit": "eligible current source transaction records in fixed 365-day calendar window",
+      "historical_publication_known": false
+    }
+  },
+  {
+    "request": {
+      "case": "C03",
+      "measure": "CURRENT_OBLIGATION_ACCOUNT"
+    },
+    "result": {
+      "accepted": true,
+      "case": "C03",
+      "measure": "CURRENT_OBLIGATION_ACCOUNT",
+      "value": "3585.0",
+      "unit": "reported signed USD obligations in the current source view; not outlays",
+      "historical_publication_known": false
+    }
+  },
+  {
+    "request": {
+      "case": "C01",
+      "measure": "ESTIMATE_STAFF_HOURS"
+    },
+    "result": {
+      "accepted": false,
+      "reason": "UNSUPPORTED_CONVERSION",
+      "detail": "Current counts and obligation fields do not establish publication timing, staff hours, vendor quality or future modifications."
+    }
+  },
+  {
+    "request": {
+      "case": "C01",
+      "measure": "RANK_VENDOR_RISK"
+    },
+    "result": {
+      "accepted": false,
+      "reason": "UNSUPPORTED_CONVERSION",
+      "detail": "Current counts and obligation fields do not establish publication timing, staff hours, vendor quality or future modifications."
+    }
+  },
+  {
+    "request": {
+      "case": "C05",
+      "measure": "PREAWARD_FEATURES"
+    },
+    "result": {
+      "accepted": false,
+      "reason": "UNSUPPORTED_CONVERSION",
+      "detail": "Current counts and obligation fields do not establish publication timing, staff hours, vendor quality or future modifications."
+    }
+  },
+  {
+    "request": {
+      "case": "C01",
+      "measure": "DOLLARS_AS_ACTION_COUNT"
+    },
+    "result": {
+      "accepted": false,
+      "reason": "UNSUPPORTED_CONVERSION",
+      "detail": "Current counts and obligation fields do not establish publication timing, staff hours, vendor quality or future modifications."
+    }
+  },
+  {
+    "request": {
+      "case": "C05",
+      "measure": "PREDICT_FUTURE_MODIFICATIONS"
+    },
+    "result": {
+      "accepted": false,
+      "reason": "UNSUPPORTED_CONVERSION",
+      "detail": "Current counts and obligation fields do not establish publication timing, staff hours, vendor quality or future modifications."
+    }
+  }
+]

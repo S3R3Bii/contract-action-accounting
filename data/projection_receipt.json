@@ -1,0 +1,11 @@
+{
+  "status": "PROJECTION_PRODUCED_NOT_YET_INDEPENDENTLY_VERIFIED",
+  "cases": 20,
+  "records": 153,
+  "hashes": {
+    "data/cases.json": "49542376a7f4591eac6a845b681ec131776d29d1ed6b92f9df6e52a73993da74",
+    "data/transactions.csv": "8831104587a57affce8a0ee8bf48a520bb7b0aef442233802aff76fed4753092",
+    "data/capture_manifest.json": "3ebf46e583854920389c904416eb77efe5a8c4c18143f3f5bbeb191977bcfbc5"
+  },
+  "qualification": "Minimal current contract transaction facts; no original publication snapshot or verified staff-task identity."
+}
