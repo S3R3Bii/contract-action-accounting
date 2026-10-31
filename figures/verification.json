@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "finite_conditions": 1094,
+  "source_bound_artists": 120,
+  "svg_coordinate_conditions": 480,
+  "asset_hashes": 9,
+  "scope": "Actual SVG bars, source-derived values, endpoints, positions and numeric labels for all cases. Visual review recorded separately; no universal or accessibility certification."
+}

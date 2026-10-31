@@ -1,0 +1,25 @@
+{
+  "state": "CANDIDATE_READY",
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "source_gate": "PASS",
+  "native_conditions": 1768,
+  "saved_source_conditions": 1236,
+  "independent_accounting_conditions": 1582,
+  "authored_fixture_methods": 33,
+  "source_cases": 20,
+  "current_records": 153,
+  "window_actions": 104,
+  "zero_dollar_actions": 12,
+  "negative_obligation_actions": 3,
+  "illustrative_queue_overlap": 3,
+  "illustrative_queue_size": 5,
+  "isolated_replays": [
+    "3.10.11",
+    "3.12.14"
+  ],
+  "historical_publication": "UNESTABLISHED",
+  "original_preaward_classifier": "UNEXECUTED",
+  "candidate_main_CI_tag_metadata": "PENDING",
+  "not_peer_reviewed": true
+}
