@@ -1,0 +1,50 @@
+[
+  {
+    "file": "award_contract.md",
+    "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/search/spending_by_award.md",
+    "captured_utc": "2026-10-31T02:25:20.713671+00:00",
+    "status": 200,
+    "bytes": 17686,
+    "sha256": "69d3262a78e91d60a78121a73808b5e2dff457a32fa91b1f8378accea6ea8348"
+  },
+  {
+    "file": "transactions.md",
+    "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/transactions.md",
+    "captured_utc": "2026-10-31T02:25:21.000290+00:00",
+    "status": 200,
+    "bytes": 4581,
+    "sha256": "76a50f3445670d8ee5488770d6583a7f6399a093a903dabfbab77344f1eba078"
+  },
+  {
+    "file": "disclosure.pdf",
+    "url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+    "captured_utc": "2026-10-31T02:25:26.142142+00:00",
+    "status": 200,
+    "bytes": 465759,
+    "sha256": "cb269d8863ff1c889d08c75562d206e903f71c50e1c8d289376671150a8cd4fc"
+  },
+  {
+    "file": "agencies.json",
+    "url": "https://api.usaspending.gov/api/v2/references/toptier_agencies/",
+    "captured_utc": "2026-10-31T02:25:26.776324+00:00",
+    "status": 200,
+    "bytes": 52950,
+    "sha256": "e425662ed2f7a43a66df0d154efe71010d79be5da0d12fa8672cd91f531f7a1b"
+  },
+  {
+    "file": "search_filters_documented.md",
+    "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+    "status": 200,
+    "bytes": 19747,
+    "sha256": "843353f954e8524296dfaf7369ff04996702a03dfb30ad2caa108489bc7be776",
+    "captured_utc": "2026-10-31T02:25:55.469942+00:00"
+  },
+  {
+    "file": "transaction_count_documented.md",
+    "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/awards/count/transaction/award_id.md",
+    "status": 200,
+    "bytes": 768,
+    "sha256": "379d2c64e98487ad608c3f04b0de71f3e996baa6e7ca88cd42bfc3349eae399a",
+    "captured_utc": "2026-10-31T02:25:56.381493+00:00"
+  }
+]
