@@ -1,0 +1,30 @@
+[
+  {
+    "case": "C01",
+    "measure": "CURRENT_ACTION_ACCOUNT"
+  },
+  {
+    "case": "C03",
+    "measure": "CURRENT_OBLIGATION_ACCOUNT"
+  },
+  {
+    "case": "C01",
+    "measure": "ESTIMATE_STAFF_HOURS"
+  },
+  {
+    "case": "C01",
+    "measure": "RANK_VENDOR_RISK"
+  },
+  {
+    "case": "C05",
+    "measure": "PREAWARD_FEATURES"
+  },
+  {
+    "case": "C01",
+    "measure": "DOLLARS_AS_ACTION_COUNT"
+  },
+  {
+    "case": "C05",
+    "measure": "PREDICT_FUTURE_MODIFICATIONS"
+  }
+]
