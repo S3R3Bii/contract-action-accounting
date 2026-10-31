@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-31T02:27:15.837210+00:00",
+  "timestamp_utc": "2026-10-31T02:28:37.434989+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 11,
+  "files_checked": 14,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -15,7 +15,9 @@
     "data/documentation_manifest.json": "78d851701f0e61d0af81c034a8a40737103f8ca81913f58d5e18250751f237f7",
     "data/source_contract.json": "50b759bed58d9471550684f1237c7e31a9eb4f3fe24344ab0a3688348b60f630",
     "requirements-source.txt": "4b8183101fd19f071771805a42a31fbb234a7961921fdb8b783a279755a1b5d5",
-    "requirements.txt": "16719ec732f133445c1e86c5784f7f0a2ee38156f05780ff107b8a8cb4f36180"
+    "requirements.txt": "16719ec732f133445c1e86c5784f7f0a2ee38156f05780ff107b8a8cb4f36180",
+    "src/capture_source.py": "f81f2ab54793afcc24ca6ac852ee904808a4a279602efca3c1eb7ebfa4fa94c4",
+    "src/project_source.py": "37b9de41b44a9398103a62d2d62df50a6ccb5394e9cdc31e110bdf9c9f883226"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,
