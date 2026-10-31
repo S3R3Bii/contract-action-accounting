@@ -1,0 +1,35 @@
+{
+  "cases": 20,
+  "native_records": 153,
+  "window_actions": 104,
+  "zero_amount_actions": 12,
+  "negative_amount_actions": 3,
+  "unknown_amount_actions": 0,
+  "financially_complete_cases": 20,
+  "queues": {
+    "review_capacity": 5,
+    "joint_eligible_cases": 20,
+    "selected_per_queue": 5,
+    "action_count_queue": [
+      "C08",
+      "C06",
+      "C07",
+      "C02",
+      "C10"
+    ],
+    "net_obligation_queue": [
+      "C08",
+      "C01",
+      "C13",
+      "C07",
+      "C02"
+    ],
+    "overlap_count": 3,
+    "union_count": 7,
+    "jaccard_fraction": "3/7",
+    "scope": "Fixed illustrative capacity; current source-record actions, not validated staffing effort or vendor quality."
+  },
+  "interpretation": "One current source view of fixed historical action windows; financial/action measures are not historical availability, legal modification counts, staff hours, paid cash, contract quality or vendor risk.",
+  "original_preaward_classifier": "UNEXECUTED",
+  "historical_publication_evidence": "UNESTABLISHED"
+}
