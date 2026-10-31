@@ -1,0 +1,1083 @@
+{
+  "status": "PASS_CAPTURE_CONTROLS",
+  "requests": [
+    {
+      "file": "awards-first.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "request": {
+        "filters": {
+          "award_type_codes": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "agencies": [
+            {
+              "type": "awarding",
+              "tier": "toptier",
+              "name": "National Aeronautics and Space Administration"
+            }
+          ],
+          "time_period": [
+            {
+              "start_date": "2024-01-01",
+              "end_date": "2024-12-31",
+              "date_type": "new_awards_only"
+            }
+          ]
+        },
+        "fields": [
+          "Award ID",
+          "generated_internal_id",
+          "Base Obligation Date",
+          "Awarding Agency",
+          "Awarding Agency Code",
+          "Contract Award Type"
+        ],
+        "page": 1,
+        "limit": 20,
+        "sort": "Award ID",
+        "order": "asc",
+        "subawards": false
+      },
+      "started_utc": "2026-10-31T02:28:53.220122+00:00",
+      "captured_utc": "2026-10-31T02:28:57.289276+00:00",
+      "status": 200,
+      "bytes": 8153,
+      "sha256": "895a400b807468b0e7b7d360db4f0a46ee78084c32116d115175a91b10c1a691"
+    },
+    {
+      "file": "C01-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24CA002_8000_-NONE-_-NONE-/",
+      "request": null,
+      "started_utc": "2026-10-31T02:28:57.290276+00:00",
+      "captured_utc": "2026-10-31T02:28:57.706335+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "df5d12e3823abb378ce0d1509f77678a8a562b119c2147289055465459cafaa1"
+    },
+    {
+      "file": "C01-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24CA002_8000_-NONE-_-NONE-",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:28:57.706335+00:00",
+      "captured_utc": "2026-10-31T02:29:01.349851+00:00",
+      "status": 200,
+      "bytes": 7432,
+      "sha256": "f6140a0bebb5bc69d0cfa4530ef4c3f0e17ae27ae10d11056a9c902fe7674006"
+    },
+    {
+      "file": "C01-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24CA002_8000_-NONE-_-NONE-/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:01.349851+00:00",
+      "captured_utc": "2026-10-31T02:29:01.753652+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "df5d12e3823abb378ce0d1509f77678a8a562b119c2147289055465459cafaa1"
+    },
+    {
+      "file": "C02-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0007_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:01.753652+00:00",
+      "captured_utc": "2026-10-31T02:29:02.502408+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "ad3de1dbbf97ab8b4508dcf9c4de6be377dc841cdf4e9fe827dc9a8ff9d8ad60"
+    },
+    {
+      "file": "C02-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0007_8000_80AFRC19D0002_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:02.502408+00:00",
+      "captured_utc": "2026-10-31T02:29:03.697116+00:00",
+      "status": 200,
+      "bytes": 8907,
+      "sha256": "c8fc43db27580dce900067ccaf0960448ed7018817c3023270a1623d8e233ddd"
+    },
+    {
+      "file": "C02-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0007_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:03.698116+00:00",
+      "captured_utc": "2026-10-31T02:29:04.086188+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "ad3de1dbbf97ab8b4508dcf9c4de6be377dc841cdf4e9fe827dc9a8ff9d8ad60"
+    },
+    {
+      "file": "C03-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0009_8000_80HQTR20D0003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:04.087189+00:00",
+      "captured_utc": "2026-10-31T02:29:06.381663+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C03-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0009_8000_80HQTR20D0003_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:06.381663+00:00",
+      "captured_utc": "2026-10-31T02:29:07.257067+00:00",
+      "status": 200,
+      "bytes": 461,
+      "sha256": "6bd3582362ca397a859128021c9228817ed3a4b0d0cadffaadc62752b1e98a62"
+    },
+    {
+      "file": "C03-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0009_8000_80HQTR20D0003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:07.258072+00:00",
+      "captured_utc": "2026-10-31T02:29:08.086162+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C04-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0010_8000_80AFRC18D0005_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:08.087164+00:00",
+      "captured_utc": "2026-10-31T02:29:09.109685+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C04-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0010_8000_80AFRC18D0005_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:09.110687+00:00",
+      "captured_utc": "2026-10-31T02:29:09.515241+00:00",
+      "status": 200,
+      "bytes": 479,
+      "sha256": "f32e52ca34c30e1d57dedbc056606ed7efbfd0ed6002d301244c86926fd5907d"
+    },
+    {
+      "file": "C04-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0010_8000_80AFRC18D0005_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:09.516242+00:00",
+      "captured_utc": "2026-10-31T02:29:09.901793+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C05-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0023_8000_80GSFC19D0011_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:09.901793+00:00",
+      "captured_utc": "2026-10-31T02:29:10.614007+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C05-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0023_8000_80GSFC19D0011_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:10.614007+00:00",
+      "captured_utc": "2026-10-31T02:29:11.457799+00:00",
+      "status": 200,
+      "bytes": 974,
+      "sha256": "20abe5f7f2f6223af55793626823d2e3b217c7e87bcfc79ecf6d335133608dca"
+    },
+    {
+      "file": "C05-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0023_8000_80GSFC19D0011_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:11.458801+00:00",
+      "captured_utc": "2026-10-31T02:29:11.867418+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C06-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0026_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:11.867418+00:00",
+      "captured_utc": "2026-10-31T02:29:12.278743+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "34df7d839e12587a3aab6d4372cdc749c989336224c4ae5241842c9f51f16df1"
+    },
+    {
+      "file": "C06-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0026_8000_80AFRC19D0002_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:12.278743+00:00",
+      "captured_utc": "2026-10-31T02:29:12.750152+00:00",
+      "status": 200,
+      "bytes": 7795,
+      "sha256": "138eb9ac33a6426fe3e24c09cbf5550c1e4c8d2e50cd10127b8d53fe1cd0d4a7"
+    },
+    {
+      "file": "C06-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0026_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:12.750152+00:00",
+      "captured_utc": "2026-10-31T02:29:13.152473+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "34df7d839e12587a3aab6d4372cdc749c989336224c4ae5241842c9f51f16df1"
+    },
+    {
+      "file": "C07-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0027_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:13.153473+00:00",
+      "captured_utc": "2026-10-31T02:29:14.959515+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "df5d12e3823abb378ce0d1509f77678a8a562b119c2147289055465459cafaa1"
+    },
+    {
+      "file": "C07-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0027_8000_80AFRC19D0002_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:14.960517+00:00",
+      "captured_utc": "2026-10-31T02:29:16.141239+00:00",
+      "status": 200,
+      "bytes": 7443,
+      "sha256": "424eaede9ece09c212f584df75c58382295f65473218a6203adc107673b5b534"
+    },
+    {
+      "file": "C07-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0027_8000_80AFRC19D0002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:16.142241+00:00",
+      "captured_utc": "2026-10-31T02:29:16.974073+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "df5d12e3823abb378ce0d1509f77678a8a562b119c2147289055465459cafaa1"
+    },
+    {
+      "file": "C08-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0030_8000_80AFRC19D0001_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:16.975075+00:00",
+      "captured_utc": "2026-10-31T02:29:17.384688+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "40ad7ead500ee05cbf765bc9011570977c507aec0e62fe02cea08bca039204e1"
+    },
+    {
+      "file": "C08-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0030_8000_80AFRC19D0001_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:17.384688+00:00",
+      "captured_utc": "2026-10-31T02:29:17.865635+00:00",
+      "status": 200,
+      "bytes": 10507,
+      "sha256": "bfcc7e23f384260f393881e48606a2a75f85beff7f617e167b4dd9b95167833d"
+    },
+    {
+      "file": "C08-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0030_8000_80AFRC19D0001_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:17.865635+00:00",
+      "captured_utc": "2026-10-31T02:29:18.250504+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "40ad7ead500ee05cbf765bc9011570977c507aec0e62fe02cea08bca039204e1"
+    },
+    {
+      "file": "C09-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0031_8000_80HQTR20D0003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:18.251507+00:00",
+      "captured_utc": "2026-10-31T02:29:18.681559+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C09-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0031_8000_80HQTR20D0003_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:18.682562+00:00",
+      "captured_utc": "2026-10-31T02:29:19.101167+00:00",
+      "status": 200,
+      "bytes": 462,
+      "sha256": "cd57382cbbb8b8c90705c0eb41115d0911dea978a01e630db390799333ec1e49"
+    },
+    {
+      "file": "C09-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0031_8000_80HQTR20D0003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:19.102169+00:00",
+      "captured_utc": "2026-10-31T02:29:19.515400+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "cfdc369f5756ea33dded36315846d6652ecf56ad8612a79d9fcb4182025e1796"
+    },
+    {
+      "file": "C10-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0033_8000_80AFRC19D0016_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:19.515400+00:00",
+      "captured_utc": "2026-10-31T02:29:23.111736+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "d008bae541c63e5c5ffb42a8130c7c452f54fcd72471bdc58809129a3025de88"
+    },
+    {
+      "file": "C10-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0033_8000_80AFRC19D0016_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:23.112739+00:00",
+      "captured_utc": "2026-10-31T02:29:23.577718+00:00",
+      "status": 200,
+      "bytes": 4310,
+      "sha256": "2eee7163bccc52a72f80c37a024ef951e2f89cf9d0f0e14bf25d51697e35572f"
+    },
+    {
+      "file": "C10-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0033_8000_80AFRC19D0016_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:23.577718+00:00",
+      "captured_utc": "2026-10-31T02:29:23.965814+00:00",
+      "status": 200,
+      "bytes": 19,
+      "sha256": "d008bae541c63e5c5ffb42a8130c7c452f54fcd72471bdc58809129a3025de88"
+    },
+    {
+      "file": "C11-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0034_8000_80AFRC19D0016_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:23.966815+00:00",
+      "captured_utc": "2026-10-31T02:29:24.367102+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C11-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24F0034_8000_80AFRC19D0016_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:24.367102+00:00",
+      "captured_utc": "2026-10-31T02:29:24.763191+00:00",
+      "status": 200,
+      "bytes": 854,
+      "sha256": "2473bebc0d934e3d3680661114fb72337238dbee3dfa2b066b1f02382e74aebf"
+    },
+    {
+      "file": "C11-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24F0034_8000_80AFRC19D0016_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:24.764196+00:00",
+      "captured_utc": "2026-10-31T02:29:25.142358+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C12-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA012_8000_80AFRC24DA001_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:25.143359+00:00",
+      "captured_utc": "2026-10-31T02:29:25.549787+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C12-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA012_8000_80AFRC24DA001_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:25.550788+00:00",
+      "captured_utc": "2026-10-31T02:29:25.997377+00:00",
+      "status": 200,
+      "bytes": 1370,
+      "sha256": "21c97d811dcbaf6f2346970e638db5bd2f497be6526c3333a0b02f987827a159"
+    },
+    {
+      "file": "C12-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA012_8000_80AFRC24DA001_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:25.998381+00:00",
+      "captured_utc": "2026-10-31T02:29:26.377464+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C13-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA013_8000_80GSFC23DA004_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:26.377464+00:00",
+      "captured_utc": "2026-10-31T02:29:26.784161+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "1f3eaa48a3c058bcd8afa417df4722c43c93ae759f73020c5f2b493170ac54bb"
+    },
+    {
+      "file": "C13-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA013_8000_80GSFC23DA004_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:26.785164+00:00",
+      "captured_utc": "2026-10-31T02:29:27.201252+00:00",
+      "status": 200,
+      "bytes": 3560,
+      "sha256": "eea2a994bd6ed47d23292795e12d653d2280bb9932da8b2b00732c52bdcb8372"
+    },
+    {
+      "file": "C13-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA013_8000_80GSFC23DA004_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:27.201252+00:00",
+      "captured_utc": "2026-10-31T02:29:27.930901+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "1f3eaa48a3c058bcd8afa417df4722c43c93ae759f73020c5f2b493170ac54bb"
+    },
+    {
+      "file": "C14-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA015_8000_80AFRC24DA002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:27.931904+00:00",
+      "captured_utc": "2026-10-31T02:29:29.650138+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C14-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA015_8000_80AFRC24DA002_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:29.651140+00:00",
+      "captured_utc": "2026-10-31T02:29:30.070442+00:00",
+      "status": 200,
+      "bytes": 953,
+      "sha256": "4c3ad564d9525f0ac3b1cf27d2c17887a8a7dcedb6960ea1a6eb6d7d7570e0c8"
+    },
+    {
+      "file": "C14-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA015_8000_80AFRC24DA002_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:30.071444+00:00",
+      "captured_utc": "2026-10-31T02:29:30.460572+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "9f60851d703bdc3469b62452b61ec84926efa71ad67dc5ed21dc2a64b941eed0"
+    },
+    {
+      "file": "C15-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA016_8000_80AFRC24DA003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:30.461577+00:00",
+      "captured_utc": "2026-10-31T02:29:30.876649+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "C15-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA016_8000_80AFRC24DA003_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:30.877652+00:00",
+      "captured_utc": "2026-10-31T02:29:31.282705+00:00",
+      "status": 200,
+      "bytes": 1938,
+      "sha256": "fcb7b9893bca43453f633c48b7a15b8fdf151572c078888d1a07159a81d6620d"
+    },
+    {
+      "file": "C15-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA016_8000_80AFRC24DA003_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:31.283708+00:00",
+      "captured_utc": "2026-10-31T02:29:31.667770+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "C16-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA017_8000_80AFRC24DA004_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:31.667770+00:00",
+      "captured_utc": "2026-10-31T02:29:32.749086+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "C16-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA017_8000_80AFRC24DA004_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:32.750082+00:00",
+      "captured_utc": "2026-10-31T02:29:33.452707+00:00",
+      "status": 200,
+      "bytes": 2289,
+      "sha256": "de8b2e09c13079dd304cbcbd63b917cd87ec3646da7fce1282f8a0aeae1cc5a4"
+    },
+    {
+      "file": "C16-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA017_8000_80AFRC24DA004_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:33.453710+00:00",
+      "captured_utc": "2026-10-31T02:29:33.840435+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "C17-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA018_8000_80AFRC24DA005_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:33.841436+00:00",
+      "captured_utc": "2026-10-31T02:29:35.900516+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C17-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA018_8000_80AFRC24DA005_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:35.901519+00:00",
+      "captured_utc": "2026-10-31T02:29:36.620365+00:00",
+      "status": 200,
+      "bytes": 1472,
+      "sha256": "6685c0da6981eba0fee862cb8f4f00efcbe637ae66a8d1a729786a44586263ca"
+    },
+    {
+      "file": "C17-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA018_8000_80AFRC24DA005_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:36.621366+00:00",
+      "captured_utc": "2026-10-31T02:29:37.007421+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C18-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA019_8000_80AFRC24DA006_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:37.008421+00:00",
+      "captured_utc": "2026-10-31T02:29:37.411511+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "1f3eaa48a3c058bcd8afa417df4722c43c93ae759f73020c5f2b493170ac54bb"
+    },
+    {
+      "file": "C18-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA019_8000_80AFRC24DA006_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:37.412515+00:00",
+      "captured_utc": "2026-10-31T02:29:37.823596+00:00",
+      "status": 200,
+      "bytes": 4709,
+      "sha256": "9d6c944f6c0f6bc51f721df739e325656c8622c65e143b4a9b6c5a40e8281037"
+    },
+    {
+      "file": "C18-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA019_8000_80AFRC24DA006_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:37.824598+00:00",
+      "captured_utc": "2026-10-31T02:29:38.210302+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "1f3eaa48a3c058bcd8afa417df4722c43c93ae759f73020c5f2b493170ac54bb"
+    },
+    {
+      "file": "C19-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA020_8000_80AFRC24DA007_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:38.210302+00:00",
+      "captured_utc": "2026-10-31T02:29:38.624942+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C19-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA020_8000_80AFRC24DA007_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:38.625947+00:00",
+      "captured_utc": "2026-10-31T02:29:42.348789+00:00",
+      "status": 200,
+      "bytes": 1472,
+      "sha256": "1ea3d5e17fa97ecd5be2048c03d1e6df3bced7c859dc4b0d5cfe3afd2ec104b9"
+    },
+    {
+      "file": "C19-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA020_8000_80AFRC24DA007_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:42.349789+00:00",
+      "captured_utc": "2026-10-31T02:29:42.798418+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "6f54e5715686663e258be98ad630cf7194fe0eb8bf9b4a76fb891c4909168c77"
+    },
+    {
+      "file": "C20-count-before.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA021_8000_80AFRC24DA008_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:42.799418+00:00",
+      "captured_utc": "2026-10-31T02:29:43.216495+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "C20-transactions.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "request": {
+        "award_id": "CONT_AWD_80AFRC24FA021_8000_80AFRC24DA008_8000",
+        "page": 1,
+        "sort": "action_date",
+        "order": "asc",
+        "limit": 5000
+      },
+      "started_utc": "2026-10-31T02:29:43.217495+00:00",
+      "captured_utc": "2026-10-31T02:29:43.624382+00:00",
+      "status": 200,
+      "bytes": 1740,
+      "sha256": "0cf136e35710c98782f20e54111fe1a842f0132b5c67e779d8cab6084f627dd9"
+    },
+    {
+      "file": "C20-count-after.json",
+      "method": "GET",
+      "url": "https://api.usaspending.gov/api/v2/awards/count/transaction/CONT_AWD_80AFRC24FA021_8000_80AFRC24DA008_8000/",
+      "request": null,
+      "started_utc": "2026-10-31T02:29:43.624382+00:00",
+      "captured_utc": "2026-10-31T02:29:47.502364+00:00",
+      "status": 200,
+      "bytes": 18,
+      "sha256": "bc7198e1983517dca1a83d9659ebc94d2ee565671f500f8abb2cdde4677a4f62"
+    },
+    {
+      "file": "awards-final.json",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "request": {
+        "filters": {
+          "award_type_codes": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "agencies": [
+            {
+              "type": "awarding",
+              "tier": "toptier",
+              "name": "National Aeronautics and Space Administration"
+            }
+          ],
+          "time_period": [
+            {
+              "start_date": "2024-01-01",
+              "end_date": "2024-12-31",
+              "date_type": "new_awards_only"
+            }
+          ]
+        },
+        "fields": [
+          "Award ID",
+          "generated_internal_id",
+          "Base Obligation Date",
+          "Awarding Agency",
+          "Awarding Agency Code",
+          "Contract Award Type"
+        ],
+        "page": 1,
+        "limit": 20,
+        "sort": "Award ID",
+        "order": "asc",
+        "subawards": false
+      },
+      "started_utc": "2026-10-31T02:29:47.502364+00:00",
+      "captured_utc": "2026-10-31T02:29:48.309720+00:00",
+      "status": 200,
+      "bytes": 8153,
+      "sha256": "895a400b807468b0e7b7d360db4f0a46ee78084c32116d115175a91b10c1a691"
+    }
+  ],
+  "cases": [
+    {
+      "case": "C01",
+      "generated_award_id": "CONT_AWD_80AFRC24CA002_8000_-NONE-_-NONE-",
+      "award_id": "80AFRC24CA002",
+      "base_date": "2024-08-27",
+      "contract_type": "DEFINITIVE CONTRACT",
+      "captured_records": 17,
+      "before_count": 17,
+      "after_count": 17
+    },
+    {
+      "case": "C02",
+      "generated_award_id": "CONT_AWD_80AFRC24F0007_8000_80AFRC19D0002_8000",
+      "award_id": "80AFRC24F0007",
+      "base_date": "2024-01-08",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 19,
+      "before_count": 19,
+      "after_count": 19
+    },
+    {
+      "case": "C03",
+      "generated_award_id": "CONT_AWD_80AFRC24F0009_8000_80HQTR20D0003_8000",
+      "award_id": "80AFRC24F0009",
+      "base_date": "2024-01-18",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 1,
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "case": "C04",
+      "generated_award_id": "CONT_AWD_80AFRC24F0010_8000_80AFRC18D0005_8000",
+      "award_id": "80AFRC24F0010",
+      "base_date": "2024-01-30",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 1,
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "case": "C05",
+      "generated_award_id": "CONT_AWD_80AFRC24F0023_8000_80GSFC19D0011_8000",
+      "award_id": "80AFRC24F0023",
+      "base_date": "2024-04-30",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 2,
+      "before_count": 2,
+      "after_count": 2
+    },
+    {
+      "case": "C06",
+      "generated_award_id": "CONT_AWD_80AFRC24F0026_8000_80AFRC19D0002_8000",
+      "award_id": "80AFRC24F0026",
+      "base_date": "2024-07-31",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 18,
+      "before_count": 18,
+      "after_count": 18
+    },
+    {
+      "case": "C07",
+      "generated_award_id": "CONT_AWD_80AFRC24F0027_8000_80AFRC19D0002_8000",
+      "award_id": "80AFRC24F0027",
+      "base_date": "2024-07-31",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 17,
+      "before_count": 17,
+      "after_count": 17
+    },
+    {
+      "case": "C08",
+      "generated_award_id": "CONT_AWD_80AFRC24F0030_8000_80AFRC19D0001_8000",
+      "award_id": "80AFRC24F0030",
+      "base_date": "2024-07-31",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 23,
+      "before_count": 23,
+      "after_count": 23
+    },
+    {
+      "case": "C09",
+      "generated_award_id": "CONT_AWD_80AFRC24F0031_8000_80HQTR20D0003_8000",
+      "award_id": "80AFRC24F0031",
+      "base_date": "2024-08-19",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 1,
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "case": "C10",
+      "generated_award_id": "CONT_AWD_80AFRC24F0033_8000_80AFRC19D0016_8000",
+      "award_id": "80AFRC24F0033",
+      "base_date": "2024-09-25",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 11,
+      "before_count": 11,
+      "after_count": 11
+    },
+    {
+      "case": "C11",
+      "generated_award_id": "CONT_AWD_80AFRC24F0034_8000_80AFRC19D0016_8000",
+      "award_id": "80AFRC24F0034",
+      "base_date": "2024-09-25",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 2,
+      "before_count": 2,
+      "after_count": 2
+    },
+    {
+      "case": "C12",
+      "generated_award_id": "CONT_AWD_80AFRC24FA012_8000_80AFRC24DA001_8000",
+      "award_id": "80AFRC24FA012",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 3,
+      "before_count": 3,
+      "after_count": 3
+    },
+    {
+      "case": "C13",
+      "generated_award_id": "CONT_AWD_80AFRC24FA013_8000_80GSFC23DA004_8000",
+      "award_id": "80AFRC24FA013",
+      "base_date": "2024-02-29",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 9,
+      "before_count": 9,
+      "after_count": 9
+    },
+    {
+      "case": "C14",
+      "generated_award_id": "CONT_AWD_80AFRC24FA015_8000_80AFRC24DA002_8000",
+      "award_id": "80AFRC24FA015",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 2,
+      "before_count": 2,
+      "after_count": 2
+    },
+    {
+      "case": "C15",
+      "generated_award_id": "CONT_AWD_80AFRC24FA016_8000_80AFRC24DA003_8000",
+      "award_id": "80AFRC24FA016",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 4,
+      "before_count": 4,
+      "after_count": 4
+    },
+    {
+      "case": "C16",
+      "generated_award_id": "CONT_AWD_80AFRC24FA017_8000_80AFRC24DA004_8000",
+      "award_id": "80AFRC24FA017",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 4,
+      "before_count": 4,
+      "after_count": 4
+    },
+    {
+      "case": "C17",
+      "generated_award_id": "CONT_AWD_80AFRC24FA018_8000_80AFRC24DA005_8000",
+      "award_id": "80AFRC24FA018",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 3,
+      "before_count": 3,
+      "after_count": 3
+    },
+    {
+      "case": "C18",
+      "generated_award_id": "CONT_AWD_80AFRC24FA019_8000_80AFRC24DA006_8000",
+      "award_id": "80AFRC24FA019",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 9,
+      "before_count": 9,
+      "after_count": 9
+    },
+    {
+      "case": "C19",
+      "generated_award_id": "CONT_AWD_80AFRC24FA020_8000_80AFRC24DA007_8000",
+      "award_id": "80AFRC24FA020",
+      "base_date": "2024-04-03",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 3,
+      "before_count": 3,
+      "after_count": 3
+    },
+    {
+      "case": "C20",
+      "generated_award_id": "CONT_AWD_80AFRC24FA021_8000_80AFRC24DA008_8000",
+      "award_id": "80AFRC24FA021",
+      "base_date": "2024-03-15",
+      "contract_type": "DELIVERY ORDER",
+      "captured_records": 4,
+      "before_count": 4,
+      "after_count": 4
+    }
+  ],
+  "protocol_commit": "eba0dd57f9d39b4ac824d23ce1d424cfc48bc8cd",
+  "qualification": "Two agreeing search observations and per-case counts detect specific changes; not atomicity, historical completeness or original delivery proof."
+}

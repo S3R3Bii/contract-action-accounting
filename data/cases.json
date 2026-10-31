@@ -1,0 +1,162 @@
+[
+  {
+    "case": "C01",
+    "generated_award_id": "CONT_AWD_80AFRC24CA002_8000_-NONE-_-NONE-",
+    "award_id": "80AFRC24CA002",
+    "base_date": "2024-08-27",
+    "contract_type": "DEFINITIVE CONTRACT",
+    "captured_records": 17
+  },
+  {
+    "case": "C02",
+    "generated_award_id": "CONT_AWD_80AFRC24F0007_8000_80AFRC19D0002_8000",
+    "award_id": "80AFRC24F0007",
+    "base_date": "2024-01-08",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 19
+  },
+  {
+    "case": "C03",
+    "generated_award_id": "CONT_AWD_80AFRC24F0009_8000_80HQTR20D0003_8000",
+    "award_id": "80AFRC24F0009",
+    "base_date": "2024-01-18",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 1
+  },
+  {
+    "case": "C04",
+    "generated_award_id": "CONT_AWD_80AFRC24F0010_8000_80AFRC18D0005_8000",
+    "award_id": "80AFRC24F0010",
+    "base_date": "2024-01-30",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 1
+  },
+  {
+    "case": "C05",
+    "generated_award_id": "CONT_AWD_80AFRC24F0023_8000_80GSFC19D0011_8000",
+    "award_id": "80AFRC24F0023",
+    "base_date": "2024-04-30",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 2
+  },
+  {
+    "case": "C06",
+    "generated_award_id": "CONT_AWD_80AFRC24F0026_8000_80AFRC19D0002_8000",
+    "award_id": "80AFRC24F0026",
+    "base_date": "2024-07-31",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 18
+  },
+  {
+    "case": "C07",
+    "generated_award_id": "CONT_AWD_80AFRC24F0027_8000_80AFRC19D0002_8000",
+    "award_id": "80AFRC24F0027",
+    "base_date": "2024-07-31",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 17
+  },
+  {
+    "case": "C08",
+    "generated_award_id": "CONT_AWD_80AFRC24F0030_8000_80AFRC19D0001_8000",
+    "award_id": "80AFRC24F0030",
+    "base_date": "2024-07-31",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 23
+  },
+  {
+    "case": "C09",
+    "generated_award_id": "CONT_AWD_80AFRC24F0031_8000_80HQTR20D0003_8000",
+    "award_id": "80AFRC24F0031",
+    "base_date": "2024-08-19",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 1
+  },
+  {
+    "case": "C10",
+    "generated_award_id": "CONT_AWD_80AFRC24F0033_8000_80AFRC19D0016_8000",
+    "award_id": "80AFRC24F0033",
+    "base_date": "2024-09-25",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 11
+  },
+  {
+    "case": "C11",
+    "generated_award_id": "CONT_AWD_80AFRC24F0034_8000_80AFRC19D0016_8000",
+    "award_id": "80AFRC24F0034",
+    "base_date": "2024-09-25",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 2
+  },
+  {
+    "case": "C12",
+    "generated_award_id": "CONT_AWD_80AFRC24FA012_8000_80AFRC24DA001_8000",
+    "award_id": "80AFRC24FA012",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 3
+  },
+  {
+    "case": "C13",
+    "generated_award_id": "CONT_AWD_80AFRC24FA013_8000_80GSFC23DA004_8000",
+    "award_id": "80AFRC24FA013",
+    "base_date": "2024-02-29",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 9
+  },
+  {
+    "case": "C14",
+    "generated_award_id": "CONT_AWD_80AFRC24FA015_8000_80AFRC24DA002_8000",
+    "award_id": "80AFRC24FA015",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 2
+  },
+  {
+    "case": "C15",
+    "generated_award_id": "CONT_AWD_80AFRC24FA016_8000_80AFRC24DA003_8000",
+    "award_id": "80AFRC24FA016",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 4
+  },
+  {
+    "case": "C16",
+    "generated_award_id": "CONT_AWD_80AFRC24FA017_8000_80AFRC24DA004_8000",
+    "award_id": "80AFRC24FA017",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 4
+  },
+  {
+    "case": "C17",
+    "generated_award_id": "CONT_AWD_80AFRC24FA018_8000_80AFRC24DA005_8000",
+    "award_id": "80AFRC24FA018",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 3
+  },
+  {
+    "case": "C18",
+    "generated_award_id": "CONT_AWD_80AFRC24FA019_8000_80AFRC24DA006_8000",
+    "award_id": "80AFRC24FA019",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 9
+  },
+  {
+    "case": "C19",
+    "generated_award_id": "CONT_AWD_80AFRC24FA020_8000_80AFRC24DA007_8000",
+    "award_id": "80AFRC24FA020",
+    "base_date": "2024-04-03",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 3
+  },
+  {
+    "case": "C20",
+    "generated_award_id": "CONT_AWD_80AFRC24FA021_8000_80AFRC24DA008_8000",
+    "award_id": "80AFRC24FA021",
+    "base_date": "2024-03-15",
+    "contract_type": "DELIVERY ORDER",
+    "captured_records": 4
+  }
+]
