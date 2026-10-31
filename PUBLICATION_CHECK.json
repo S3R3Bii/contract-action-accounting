@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-31T02:32:24.702398+00:00",
+  "timestamp_utc": "2026-10-31T02:32:28.963034+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 30,
+  "files_checked": 31,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -9,6 +9,7 @@
     ".gitignore": "63c4fa9e9b0f9a9603478319c3cf671b6cb6a1b22d12390ab149324eff007cf6",
     "DATA_RIGHTS.md": "55b30074c573a2d05cba06a001d688ec75035d6962d2a6ff6b7ebcc174988982",
     "LICENSE": "039d600c2b86fc1d8d454bb4eb857bef5ed25416514c62a91d4533a25c1889f3",
+    "PLAN_FREEZE.json": "1a4770ac7dd1639d23714bf2f40aaa43ccac4a30125773c9241377ecd5237761",
     "PROTOCOL.md": "7deb29a54f2d2e5a67549284a57df7acb42a09fb8e2389098cfab80766fd202c",
     "README.md": "ed3c8bc42d374d3d5bd02b79b0af35c204d536185171a43239fb08cdd0fdb4d0",
     "SOURCE_HISTORY.md": "e19c76984bf0539c9abfadf6b1a18fa994c4ee04bce0b55d37f233ae4758f6f5",
